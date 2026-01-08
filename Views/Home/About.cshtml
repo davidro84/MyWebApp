@@ -1,0 +1,46 @@
+@{
+    ViewData["Title"] = ViewBag.Title ?? "Acerca de";
+}
+
+<div class="container mt-5">
+    <h1>@ViewBag.Title</h1>
+    <hr />
+    
+    <div class="row">
+        <div class="col-md-8">
+            <h3>Descripción</h3>
+            <p>@ViewBag.Description</p>
+            
+            <h3 class="mt-4">Características</h3>
+            <ul>
+                <li>Interfaz web moderna y responsiva</li>
+                <li>Controladores MVC bien estructurados</li>
+                <li>Vistas Razor dinámicas</li>
+                <li>Validación de formularios</li>
+                <li>Logging integrado</li>
+            </ul>
+
+            <h3 class="mt-4">Tecnología</h3>
+            <ul>
+                <li>.NET 8.0</li>
+                <li>ASP.NET Core MVC</li>
+                <li>HTML5 y CSS3</li>
+                <li>Bootstrap 5</li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <div class="card bg-light">
+                <div class="card-body">
+                    <h5 class="card-title">Información</h5>
+                    <p class="card-text">
+                        <strong>Versión:</strong> 1.0<br>
+                        <strong>Año:</strong> 2026<br>
+                        <strong>Tipo:</strong> Aplicación Web
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="/" class="btn btn-secondary mt-4">Volver al inicio</a>
+</div>

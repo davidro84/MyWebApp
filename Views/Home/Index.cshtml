@@ -1,0 +1,40 @@
+@{
+    ViewData["Title"] = "Inicio";
+}
+
+<div class="container mt-5">
+    <div class="jumbotron bg-light p-5 rounded-lg">
+        <h1 class="display-4">@ViewBag.Message</h1>
+        <p class="lead">Esta es una aplicación web básica desarrollada con ASP.NET Core.</p>
+        <hr class="my-4">
+        <p>Explora las diferentes secciones de la aplicación usando el menú de navegación.</p>
+        <a class="btn btn-primary btn-lg" href="/Home/About" role="button">Aprende más</a>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">🚀 Moderno</h5>
+                    <p class="card-text">Desarrollado con las tecnologías más recientes de ASP.NET Core.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">⚡ Rápido</h5>
+                    <p class="card-text">Rendimiento optimizado y respuestas rápidas desde el servidor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">🔒 Seguro</h5>
+                    <p class="card-text">Construido con las mejores prácticas de seguridad web.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
